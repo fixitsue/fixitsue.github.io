@@ -1,0 +1,47 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.greedy-nav a.site-title {
+  color: red;
+}
+
+.social-icons {
+  .fa-check {
+    color: red;
+  }
+}
+
+.page__footer footer {
+  margin-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+#checkatrade {
+  text-decoration: none;
+  box-shadow: none;
+}
+
+#checkatrade img {
+  box-shadow: none;
+}
