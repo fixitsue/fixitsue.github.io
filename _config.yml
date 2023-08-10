@@ -17,7 +17,7 @@ title: Sue's Maintenance Services
 email: enquiries@fixitsue.com
 description: >- # this means to ignore newlines until "baseurl:"
   Sue's Maintenance Services covers Nottingham and Derby cities. Tiling, Flooring, Painting, Decorating, Handylady, Property maintenance.
-url: https://fixitsue.com
+#url: https://fixitsue.com
 github_username: cedricbompart
 minimal_mistakes_skin: contrast
 search: false
