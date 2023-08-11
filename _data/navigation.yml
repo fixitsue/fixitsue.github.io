@@ -1,5 +1,5 @@
 main:
-  - title: "Home"
-    url: /
   - title: "Contact"
     url: /contact/
+  - title: "Home"
+    url: /

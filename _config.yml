@@ -17,10 +17,20 @@ title: Sue's Maintenance Services
 email: enquiries@fixitsue.com
 description: >- # this means to ignore newlines until "baseurl:"
   Sue's Maintenance Services covers Nottingham and Derby cities. Tiling, Flooring, Painting, Decorating, Handylady, Property maintenance.
-#url: https://fixitsue.com
-github_username: cedricbompart
+url: https://fixitsue.com
 minimal_mistakes_skin: contrast
 search: false
+
+phone:
+  value: "+447971774701"
+  label: "07971 774701"
+address: 
+  city: "Pinxton"
+  country: "UK"
+  street: "30 Westland Dr"
+  postcode: "NG16 6RD"
+  county: "Nottingham"
+name: "Sue Williamson"
 
 # Build settings
 markdown: kramdown
@@ -29,7 +39,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/London
 
 include:
   - _pages
@@ -55,25 +65,12 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-author:
-  bio    : "Try a woman that can!"
-  links:
-    - label: "07971 774701"
-      icon: "fas fa-fw fa-phone-alt"
-      url: "tel:+447971774701"
-    - label: "enquiries@fixitsue.com"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:enquiries@fixituse.com"
-    - label: "Checkatrade"
-      icon: "fas fa-fw fa-check"
-      url: "https://www.checkatrade.com/trades/suesmaintenanceservices"
-
 footer:
   links:
     - label: "07971 774701"
       icon: "fas fa-fw fa-phone-alt"
       url: "tel:+447971774701"
-    - label: "enquiries@fixitsue.com"
+    - label: "email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:enquiries@fixituse.com"
     - label: "sitemap"
@@ -86,9 +83,9 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: single
+      layout: splash
       classes: wide
-      author_profile: true
+      author_profile: false
       
 social:
   type:  Organization

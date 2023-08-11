@@ -39,9 +39,19 @@ search: false
 
 #checkatrade {
   text-decoration: none;
-  box-shadow: none;
 }
 
 #checkatrade img {
   box-shadow: none;
 }
+
+#contact table, #contact tr, #contact td {
+  border: none;
+}
+
+#contact a {
+  text-decoration: none;
+  color: black;
+}
+
+
