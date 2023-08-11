@@ -23,7 +23,7 @@ search: false
   padding-bottom: 0.5em;
 }
 
-.map-responsive{
+.map-responsive {
   overflow:hidden;
   padding-bottom:56.25%;
   position:relative;
@@ -37,21 +37,26 @@ search: false
   position:absolute;
 }
 
-#checkatrade {
+#checkatrade a {
   text-decoration: none;
 }
-
-#checkatrade img {
+#checkatrade, #checkatrade a, #checkatrade img {
   box-shadow: none;
 }
 
-#contact table, #contact tr, #contact td {
+.contact, .contact tr, .contact td {
   border: none;
 }
-
-#contact a {
+.contact a {
   text-decoration: none;
   color: black;
 }
 
+.services {
+  font-size: 1em;
+  margin-top: 0;
+}
+.services tr, .services td {
+  border: none;
+}
 

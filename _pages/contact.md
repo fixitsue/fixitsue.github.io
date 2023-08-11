@@ -2,9 +2,9 @@
 permalink: /contact/
 ---
 
-<table id="contact">
+<table class="contact">
   <tr>
-    <td><i class="fas fa-phone fa-2x"></i></td>
+    <td><i class="fas fa-phone-alt fa-2x"></i></td>
     <td><a href="tel:{{site.phone.value}}">{{site.phone.label}}</a></td>
   </tr>
   <tr>
