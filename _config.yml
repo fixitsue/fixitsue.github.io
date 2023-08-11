@@ -89,3 +89,8 @@ social:
     - "https://www.checkatrade.com/trades/suesmaintenanceservices"
     - "https://www.construction.co.uk/c/659388/sue-s-maintenance-services-ltd"
     - "https://www.buywithconfidence.gov.uk/profile/sue-s-maintenance-services/32821/"
+    
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-R9JYRJMV1D"
