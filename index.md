@@ -3,7 +3,7 @@ layout: splash
 classes: wide
 author_profile: false
 ---
-Sue's Maintenance Services covers Nottingham and Derby cities with over 17 years experience. All our work is undertaken with great care and due diligence.
+Sue's Maintenance Services covers Nottingham and Derby cities with over <span id="years"></span> years experience. All our work is undertaken with great care and due diligence.
 
 <div>
     Our services include:
@@ -34,3 +34,7 @@ We look forward to hearing from you.
   <img src="http://www.checkatrade.com/Reputation/ApiChart/SuesMaintenanceServices.png" alt="Checkatrade information for Sue's Maintenance Services"/>
 </a>
 </div>
+
+<script>
+  document.querySelector('#years').innerHTML = new Date().getFullYear() - 2006
+</script>
