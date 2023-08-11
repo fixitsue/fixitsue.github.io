@@ -20,6 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: https://fixitsue.com
 minimal_mistakes_skin: contrast
 search: false
+logo: /assets/images/logo.svg
 
 phone:
   value: "+447971774701"
