@@ -16,11 +16,13 @@
 title: Sue's Maintenance Services
 email: enquiries@fixitsue.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Sue's Maintenance Services covers Nottingham and Derby cities. Tiling, Flooring, Painting, Decorating, Handylady, Property maintenance.
+  Sue's Maintenance Services covers Nottingham and Derby cities. General plumbing, Tiling, Laminate flooring, Flat pack furniture assembly, Any small jobs
 url: https://fixitsue.com
 minimal_mistakes_skin: contrast
 search: false
 logo: /assets/images/logo.svg
+timezone: Europe/London
+locale: en-GB
 
 phone:
   value: "+447971774701"
@@ -41,7 +43,6 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Europe/London
 
 include:
   - _pages
