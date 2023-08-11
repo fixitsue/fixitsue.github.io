@@ -32,6 +32,7 @@ address:
   postcode: "NG16 6RD"
   county: "Nottingham"
 name: "Sue Williamson"
+start_date: "2006"
 
 # Build settings
 markdown: kramdown
@@ -68,12 +69,6 @@ plugins:
 
 footer:
   links:
-    - label: "07971 774701"
-      icon: "fas fa-fw fa-phone-alt"
-      url: "tel:+447971774701"
-    - label: "email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:enquiries@fixituse.com"
     - label: "sitemap"
       icon: "fas fa-fw fa-sitemap"
       url: "/sitemap.xml"

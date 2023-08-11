@@ -36,5 +36,5 @@ We look forward to hearing from you.
 </div>
 
 <script>
-  document.querySelector('#years').innerHTML = new Date().getFullYear() - 2006
+  document.querySelector('#years').innerHTML = new Date().getFullYear() - {{ site.start_date }}
 </script>
