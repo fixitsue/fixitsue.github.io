@@ -10,17 +10,14 @@ Sue's Maintenance Services covers Nottingham and Derby cities with over <span id
     <table class="services">
       <tr>
         <td><li>General plumbing</li></td>
-        <td>&nbsp;</td>
         <td><li>Tiling</li></td>
       </tr>
       <tr>
         <td><li>Laminate flooring</li></td>
-        <td>&nbsp;</td>
         <td><li>Flat pack furniture assembly</li></td>
       </tr>
       <tr>
         <td><li>Any small jobs</li></td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
       </tr>
     </table>
